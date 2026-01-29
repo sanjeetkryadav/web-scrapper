@@ -2,6 +2,8 @@
 
 A robust web scraping automation tool built with TypeScript and Playwright. This project automates the login process on the Swag Labs (SauceDemo) testing site, extracts product details, and exports them into clean data formats.
 
+-----------
+
 ✨ Features
 
 🔐 Automated Authentication: Securely logs in using credentials stored in environment variables.
@@ -14,6 +16,7 @@ A robust web scraping automation tool built with TypeScript and Playwright. This
 
 🕒 Visual Debugging: Includes built-in delays and slowMo options for easy process monitoring.
 
+-----------
 🛠️ Tech Stack
 
 Runtime: Node.js
@@ -26,6 +29,7 @@ Config: Dotenv
 
 Runner: ts-node
 
+------------
 🚀 Getting Started
 
 1. Prerequisites
@@ -54,14 +58,14 @@ SAUCE_USERNAME=standard_user
 SAUCE_PASSWORD=secret_sauce
 HEADLESS=false
 
-
+--------------------
 🚦 Usage
 
 To start the scraping process, run:
 
 npm start
 
-
+--------------------------------
 Script Workflow:
 
 Launches Chromium browser.
@@ -74,13 +78,14 @@ Scrapes the inventory items.
 
 Saves files to the /reports directory.
 
+-------
+
 📁 Project Structure
 
-├── reports/             Generated data (CSV/JSON)
-├── scraper.ts           Main logic
-├── .env                 Private configuration
-├── package.json         Dependencies and scripts
-└── tsconfig.json        TypeScript configuration
+├── reports/             
+├── .env                 
+├── package.json         
+└── tsconfig.json        
 
 
 
