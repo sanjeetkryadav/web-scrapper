@@ -76,12 +76,11 @@ Saves files to the /reports directory.
 
 📁 Project Structure
 
-├── reports/            # Generated data (CSV/JSON)
-├── scraper.ts          # Main logic
-├── .env                # Private configuration
-├── .env.example        # Template for environment variables
-├── package.json        # Dependencies and scripts
-└── tsconfig.json       # TypeScript configuration
+├── reports/             Generated data (CSV/JSON)
+├── scraper.ts           Main logic
+├── .env                 Private configuration
+├── package.json         Dependencies and scripts
+└── tsconfig.json        TypeScript configuration
 
 
 
